@@ -8559,3 +8559,23 @@ textarea.form-control {
       #aboutContainer {
         border-bottom: 1px solid lightgrey;
       }
+
+      .education-section {
+        border-bottom: 1px solid lightgrey;
+        padding-top:40px;
+        padding-bottom:40px;
+      }
+
+ul > p > a {
+  color:inherit;
+}
+
+#containerFlexSkill{
+  display:flex;
+  justify-content: space-between;
+}
+
+.colorlib-footer  a {
+  margin-top:15px;
+  margin-bottom:15px;
+}
