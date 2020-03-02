@@ -8576,6 +8576,40 @@ ul > p > a {
 }
 
 .colorlib-footer  a {
-  margin-top:15px;
-  margin-bottom:15px;
+  margin-bottom:10px;
+}
+
+
+.colorlib-footer .btn {
+  width:50%;
+  font-size:1.2rem;
+}
+
+.projectContainer {
+  display:flex;
+  flex-direction: row;
+  padding: 1%;
+  border-top:1px solid lightgrey;
+}
+
+.pictureProjectContainer {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.pictureProjectContainer img {
+  height: 450px;
+  border: 1px solid black;
+  width:100%;
+}
+
+.contentProjectContainer {
+  display: flex;
+  flex-direction: column;
+  padding:1%;
+  align-items: center;
+  width:100%;
 }
