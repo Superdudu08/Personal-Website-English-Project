@@ -61,7 +61,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #737373;
   text-align: left;
   background-color: #fff; }
 
@@ -7274,7 +7274,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   font-weight: 500;
-  color: #999999; }
+  color: #737373; }
   body.offcanvas {
     overflow-x: hidden; }
     body.offcanvas #colorlib-aside {
@@ -7322,7 +7322,7 @@ h1, h2, h3, h4, h5,
   padding-bottom: 40px;
   padding-left: 3em;
   padding-right: 3em;
-  width: 25%;
+  width: 20%;
   position: fixed;
   bottom: 0;
   top: 0;
@@ -7337,7 +7337,7 @@ h1, h2, h3, h4, h5,
   transition: all 0.5s ease; }
   @media (min-width: 992px) {
     #colorlib-aside {
-      width: 25%; } }
+      width: 20%; } }
   @media (max-width: 991.98px) {
     #colorlib-aside {
       width: 270px;
@@ -7458,7 +7458,7 @@ h1, h2, h3, h4, h5,
   transition: all 0.5s ease; }
   @media (min-width: 992px) {
     #colorlib-main {
-      width: 75%; } }
+      width: 80%; } }
 
 .colorlib-nav-toggle {
   cursor: pointer;
@@ -7591,7 +7591,7 @@ h1, h2, h3, h4, h5,
       border-radius: 50%; }
     .hero-wrap .text .subheading {
       font-size: 24px;
-      color: #bfbfbf;
+      color: #919191;
       font-weight: 300; }
     .hero-wrap .text h1 {
       letter-spacing: 1px;
@@ -8581,7 +8581,7 @@ ul > p > a {
 
 
 .colorlib-footer .btn {
-  width:50%;
+  width:64%;
   font-size:1.2rem;
 }
 
@@ -8616,4 +8616,23 @@ ul > p > a {
 
 .category {
   color: #f05d23;
+}
+
+.projectDescription {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 160px;
+}
+
+@media (max-height: 760px) {
+  .subNavSection {
+    display:none;
+  }
+}
+
+.vlogPost {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
