@@ -8613,3 +8613,7 @@ ul > p > a {
   align-items: center;
   width:100%;
 }
+
+.category {
+  color: #f05d23;
+}
