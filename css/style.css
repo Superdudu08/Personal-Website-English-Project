@@ -8581,8 +8581,15 @@ ul > p > a {
 
 
 .colorlib-footer .btn {
-  width:64%;
-  font-size:1.2rem;
+  width:90%;
+  font-size:1rem;
+}
+
+@media (min-width:1400px){
+  .colorlib-footer .btn {
+    width:64%;
+    font-size:1.2rem;
+  }
 }
 
 .projectContainer {
@@ -8614,7 +8621,7 @@ ul > p > a {
   width:100%;
 }
 
-.category {
+.category, .vlogTitle {
   color: #f05d23;
 }
 
@@ -8635,4 +8642,9 @@ ul > p > a {
   display:flex;
   flex-direction: column;
   align-items: center;
+}
+
+.vlogDescription {
+  width: 70%;
+  padding-top:10px;
 }
